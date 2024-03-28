@@ -10,14 +10,14 @@ export const Header = () => {
 						<div className="img-container">
 							<img src={logo} alt="logo" />
 						</div>
-						<ul>
+						{/* <ul>
 							<li>Home</li>
 							<li>About</li>
 							<li>Menu</li>
 							<li>Reservations</li>
 							<li>Order Online</li>
 							<li>Login</li>
-						</ul>
+						</ul> */}
 					</div>
 				</div>
 			</nav>

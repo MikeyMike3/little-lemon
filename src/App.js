@@ -1,4 +1,5 @@
 import "./App.css";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Specials } from "./components/Specials";
@@ -6,11 +7,14 @@ import { Specials } from "./components/Specials";
 function App() {
 	return (
 		<div className="App">
-			<Header />
-			<main>
-				<Hero />
-				<Specials />
-			</main>
+			<body>
+				<Header />
+				<main>
+					<Hero />
+					<Specials />
+				</main>
+				<Footer />
+			</body>
 		</div>
 	);
 }
