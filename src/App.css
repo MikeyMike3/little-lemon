@@ -258,3 +258,70 @@ footer h3 {
 		width: 100%;
 	}
 }
+
+form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: #495e57;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: left;
+}
+
+label {
+	color: #f4ce14;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+input,
+select {
+	width: 200px;
+	padding: 10px;
+}
+
+.submit-btn {
+	margin-top: 15px;
+	border: none;
+	background-color: #f4ce14;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.pop-up-container {
+	position: fixed; /* Keeps the popup fixed in the viewport */
+	top: 0; /* Positions the popup from the top of the viewport */
+	left: 0; /* Positions the popup from the left of the viewport */
+	width: 100%; /* Makes the popup overlay cover the entire viewport */
+	height: 100%; /* Makes the popup overlay cover the entire viewport */
+	background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+	display: flex; /* Allows us to center the popup */
+	justify-content: center; /* Centers the popup horizontally */
+	align-items: center; /* Centers the popup vertically */
+}
+
+.pop-up {
+	background-color: #495e57;
+	color: #f4ce14;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	max-width: 80%;
+	text-align: center;
+}
+
+.confirm {
+	margin-top: 15px;
+	border: none;
+	background-color: #f4ce14;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: bolder;
+	cursor: pointer;
+	width: 30%;
+}
