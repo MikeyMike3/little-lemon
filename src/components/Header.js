@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../imgs/Asset 16@4x.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -15,9 +16,6 @@ export const Header = () => {
 				<div className="wrapper">
 					<div className="header-container">
 						<img src={logo} alt="logo" />
-						{/* <span className="menu" onClick={toggleMenu}>
-							Trigger
-						</span> */}
 						<FontAwesomeIcon
 							icon={faBars}
 							className="menu"

@@ -8,19 +8,21 @@ import { Specials } from "./components/Specials";
 
 function App() {
 	return (
-		<BookingFormProvider>
-			<div className="App">
-				<body>
-					<Header />
-					<main>
-						<Hero />
-						<Specials />
-						<BookingForm />
-					</main>
-					<Footer />
-				</body>
-			</div>
-		</BookingFormProvider>
+		<>
+			<BookingFormProvider>
+				<div className="App">
+					<body>
+						<Header />
+						<main>
+							<Hero />
+							<Specials />
+							<BookingForm />
+						</main>
+						<Footer />
+					</body>
+				</div>
+			</BookingFormProvider>
+		</>
 	);
 }
 
